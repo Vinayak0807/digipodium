@@ -55,7 +55,7 @@ def score_update():
         sounds.action.play()    
     if score <= -50:
         game_state = 1
-    if score >= 50:
+    if score >= 70:
         game_state = 2        
 def player_update():
     if keyboard.left:
@@ -65,5 +65,5 @@ def player_update():
     elif keyboard.up:
         p.y -= 7
     elif keyboard.down:
-        p.y += 7            
+        p.y += 7           
 pgzrun.go()
