@@ -67,7 +67,7 @@ def score_update():
         sounds.action.play()  
     if score <= -60:
         game_state = 1
-    if score >= 100:
+    if score >= 60:
         game_state = 2
 
 def player_update():
